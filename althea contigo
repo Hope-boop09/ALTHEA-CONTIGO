@@ -1,0 +1,1197 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f2eafa">
+
+    <title>Althea Contigo | Tu bienestar importa</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Mapa interactivo -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="brand">
+                <div class="logo">A</div>
+                <div>
+                    <strong>ALTHEA</strong>
+                    <span>CONTIGO</span>
+                </div>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Abrir menú"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#investigacion">Investigación</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#ubicaciones">Encuentra ayuda</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-glow"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <span class="eyebrow">
+                        UN ESPACIO PARA TI
+                    </span>
+
+                    <h1>
+                        Tu voz importa,
+                        <span>tu bienestar también.</span>
+                    </h1>
+
+                    <p>
+                        Un espacio de orientación, información y apoyo
+                        para promover el bienestar emocional dentro
+                        de la comunidad universitaria.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#nosotros" class="btn btn-primary">
+                            Conócenos
+                        </a>
+
+                        <a href="#ubicaciones" class="btn btn-outline">
+                            Encuentra apoyo
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="hero-art reveal">
+                    <div class="flower-circle">
+                        <div class="flower">✿</div>
+                        <span>ALTHEA</span>
+                        <small>CONTIGO</small>
+                    </div>
+                    <div class="floating-note">
+                        Tu bienestar es importante 💜
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FRASE -->
+        <section class="quote-section">
+            <div class="container">
+                <p>
+                    "Pedir orientación también es una forma de cuidarte."
+                </p>
+            </div>
+        </section>
+
+
+        <!-- NOSOTROS -->
+        <section class="section container" id="nosotros">
+
+            <div class="section-heading reveal">
+                <span class="eyebrow">CONÓCENOS</span>
+                <h2>Un espacio pensado para ti</h2>
+                <p>
+                    [ESCRIBE AQUÍ LA PRESENTACIÓN DE ALTHEA CONTIGO]
+                </p>
+            </div>
+
+            <div class="cards-grid">
+
+                <article class="info-card reveal">
+                    <div class="card-icon">💜</div>
+                    <h3>¿Quiénes somos?</h3>
+                    <p>
+                        [AGREGA AQUÍ LA INFORMACIÓN]
+                    </p>
+                </article>
+
+                <article class="info-card reveal">
+                    <div class="card-icon">🌷</div>
+                    <h3>Nuestra misión</h3>
+                    <p>
+                        [AGREGA AQUÍ LA MISIÓN DEL PROYECTO]
+                    </p>
+                </article>
+
+                <article class="info-card reveal">
+                    <div class="card-icon">✨</div>
+                    <h3>Nuestra visión</h3>
+                    <p>
+                        [AGREGA AQUÍ LA VISIÓN DEL PROYECTO]
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- PROPÓSITO -->
+        <section class="purpose-section" id="proposito">
+
+            <div class="container purpose-grid">
+
+                <div class="purpose-text reveal">
+                    <span class="eyebrow">NUESTRO PROPÓSITO</span>
+
+                    <h2>
+                        Escuchar, orientar y acompañar.
+                    </h2>
+
+                    <p>
+                        [ESCRIBE AQUÍ EL OBJETIVO GENERAL
+                        Y LA IMPORTANCIA DE TU PROYECTO]
+                    </p>
+
+                    <a href="#investigacion" class="text-link">
+                        Conoce nuestra investigación →
+                    </a>
+                </div>
+
+                <div class="purpose-decoration reveal">
+                    <div class="heart">♡</div>
+                    <p>Un espacio donde tu voz tiene valor.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- INVESTIGACIÓN -->
+        <section class="section container" id="investigacion">
+
+            <div class="section-heading reveal">
+                <span class="eyebrow">CONOCE MÁS</span>
+                <h2>Detrás de nuestra investigación</h2>
+                <p>
+                    [AGREGA UNA BREVE INTRODUCCIÓN A TU INVESTIGACIÓN]
+                </p>
+            </div>
+
+            <div class="research-grid">
+
+                <article class="research-card reveal">
+                    <span class="card-icon">📚</span>
+                    <h3>Problemática</h3>
+                    <p>[DESCRIBE LA PROBLEMÁTICA]</p>
+                </article>
+
+                <article class="research-card reveal">
+                    <span class="card-icon">🔎</span>
+                    <h3>Objetivos</h3>
+                    <p>[ESCRIBE LOS OBJETIVOS]</p>
+                </article>
+
+                <article class="research-card reveal">
+                    <span class="card-icon">📊</span>
+                    <h3>Resultados</h3>
+                    <p>[AGREGA LOS RESULTADOS DE TU INVESTIGACIÓN]</p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- RECURSOS -->
+        <section class="resources-section" id="recursos">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="eyebrow">ESTAMOS PARA ORIENTARTE</span>
+                    <h2>Información que puede ayudarte</h2>
+                    <p>
+                        [AGREGA UNA INTRODUCCIÓN A LOS RECURSOS]
+                    </p>
+                </div>
+
+                <div class="resources-grid">
+
+                    <article class="resource-card reveal">
+                        <span>🌿</span>
+                        <h3>Bienestar emocional</h3>
+                        <p>[AGREGA INFORMACIÓN]</p>
+                    </article>
+
+                    <article class="resource-card reveal">
+                        <span>🤝</span>
+                        <h3>Apoyo psicológico</h3>
+                        <p>[AGREGA INFORMACIÓN]</p>
+                    </article>
+
+                    <article class="resource-card reveal">
+                        <span>🦋</span>
+                        <h3>Prevención del acoso</h3>
+                        <p>[AGREGA INFORMACIÓN]</p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- MAPA -->
+        <section class="section container map-section" id="ubicaciones">
+
+            <div class="section-heading reveal">
+                <span class="eyebrow">ENCUENTRA APOYO</span>
+                <h2>Hay lugares donde pueden escucharte.</h2>
+                <p>
+                    Consulta las instituciones y centros de atención
+                    psicológica disponibles en nuestra región.
+                </p>
+            </div>
+
+            <div class="map-layout reveal">
+
+                <div class="map-information">
+                    <h3>Instituciones de apoyo</h3>
+
+                    <p>
+                        Explora las ubicaciones y consulta los datos
+                        de cada institución.
+                    </p>
+
+                    <div id="institutionList">
+                        <p class="empty-message">
+                            Las instituciones se agregarán próximamente.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="map" aria-label="Mapa de instituciones de apoyo psicológico"></div>
+
+            </div>
+
+            <p class="map-note">
+                La disponibilidad, los horarios y los servicios deben
+                confirmarse directamente con cada institución.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="contact-section" id="contacto">
+
+            <div class="container contact-content reveal">
+
+                <span class="eyebrow">ALTHEA CONTIGO</span>
+
+                <h2>
+                    Tu bienestar también merece un espacio.
+                </h2>
+
+                <p>
+                    [AGREGA AQUÍ INFORMACIÓN DE CONTACTO
+                    O MEDIOS DE COMUNICACIÓN]
+                </p>
+
+                <a href="#inicio" class="btn btn-light">
+                    Volver al inicio ↑
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <strong>ALTHEA CONTIGO</strong>
+                <p>Tu voz importa, tu bienestar también.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#nosotros">Nosotros</a>
+                <a href="#investigacion">Investigación</a>
+                <a href="#ubicaciones">Instituciones</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Althea Contigo. Proyecto de investigación.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+    --purple: #8d6bb2;
+    --dark-purple: #594071;
+    --lavender: #e9dcf5;
+    --light: #fbf9fd;
+    --text: #51465b;
+    --muted: #81758b;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--light);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(1150px, 90%);
+    margin: auto;
+}
+
+/* NAVEGACIÓN */
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(251,249,253,.88);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid #eee5f4;
+}
+
+.navbar {
+    min-height: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark-purple);
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #bda0d8, #80609f);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.brand strong, .brand span {
+    display: block;
+    letter-spacing: 3px;
+}
+
+.brand strong {
+    font-size: 16px;
+}
+
+.brand span {
+    font-size: 10px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 27px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: var(--purple);
+}
+
+.menu-toggle {
+    display: none;
+    border: none;
+    background: none;
+    color: var(--dark-purple);
+    font-size: 27px;
+    cursor: pointer;
+}
+
+/* PORTADA */
+
+.hero {
+    min-height: 610px;
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(ellipse at 80% 20%, #e5d4f3 0%, transparent 45%),
+        radial-gradient(ellipse at 15% 90%, #eee4f7 0%, transparent 50%),
+        linear-gradient(135deg, #fcfaff, #f1e8f8);
+}
+
+.hero-content {
+    min-height: 610px;
+    display: grid;
+    grid-template-columns: 1.2fr .8fr;
+    align-items: center;
+    gap: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.eyebrow {
+    color: var(--purple);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.2;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 5.5vw, 68px);
+    margin: 20px 0;
+    color: var(--dark-purple);
+}
+
+.hero h1 span {
+    color: #a184bf;
+    display: block;
+}
+
+.hero-text > p {
+    max-width: 520px;
+    color: var(--muted);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 25px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+}
+
+.btn-primary {
+    background: var(--purple);
+    color: white;
+    box-shadow: 0 8px 20px #8d6bb244;
+}
+
+.btn-outline {
+    border: 1px solid #bda4d2;
+    color: var(--dark-purple);
+}
+
+.hero-art {
+    min-height: 370px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.flower-circle {
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #e4d3f2, #bda1d6);
+    box-shadow: 0 25px 65px #8c6bab33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.flower {
+    font-size: 110px;
+    line-height: 1.1;
+}
+
+.flower-circle span {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.flower-circle small {
+    letter-spacing: 4px;
+}
+
+.floating-note {
+    position: absolute;
+    bottom: 25px;
+    right: 0;
+    padding: 15px 22px;
+    border-radius: 30px;
+    background: white;
+    box-shadow: 0 8px 30px #59407120;
+    color: var(--dark-purple);
+    font-size: 12px;
+}
+
+/* FRASE */
+
+.quote-section {
+    text-align: center;
+    padding: 42px 20px;
+    background: white;
+    color: var(--dark-purple);
+    font-family: 'Playfair Display', serif;
+    font-size: 23px;
+}
+
+/* SECCIONES */
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 55px;
+}
+
+.section-heading h2 {
+    font-size: clamp(30px, 4vw, 43px);
+    color: var(--dark-purple);
+    margin: 14px 0;
+}
+
+.section-heading p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.cards-grid, .research-grid, .resources-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+}
+
+.info-card, .research-card, .resource-card {
+    background: white;
+    padding: 35px 28px;
+    border-radius: 22px;
+    border: 1px solid #eee5f4;
+    box-shadow: 0 10px 35px #66517d0c;
+    transition: .3s;
+}
+
+.info-card:hover, .research-card:hover, .resource-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px #66517d20;
+}
+
+.card-icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.info-card h3, .research-card h3, .resource-card h3 {
+    color: var(--dark-purple);
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.info-card p, .research-card p, .resource-card p {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* PROPÓSITO */
+
+.purpose-section {
+    background:
+        radial-gradient(circle at 80% 40%, #e1d0ef, transparent 40%),
+        linear-gradient(120deg, #eee5f6, #faf7fc);
+    padding: 100px 0;
+}
+
+.purpose-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.purpose-text h2 {
+    font-size: 43px;
+    color: var(--dark-purple);
+    margin: 18px 0;
+}
+
+.purpose-text p {
+    color: var(--muted);
+    margin-bottom: 20px;
+}
+
+.text-link {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.purpose-decoration {
+    min-height: 290px;
+    background: white;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 45px #59407116;
+    color: var(--dark-purple);
+}
+
+.heart {
+    color: #aa83c9;
+    font-size: 110px;
+    line-height: 1.2;
+}
+
+.purpose-decoration p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+/* RECURSOS */
+
+.resources-section {
+    padding: 100px 0;
+    background: #f5eff9;
+}
+
+.resource-card {
+    text-align: center;
+}
+
+.resource-card span {
+    font-size: 38px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* MAPA */
+
+.map-layout {
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    gap: 25px;
+    background: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 12px 40px #59407112;
+}
+
+.map-information {
+    padding: 20px 10px;
+}
+
+.map-information h3 {
+    font-size: 24px;
+    color: var(--dark-purple);
+    margin-bottom: 12px;
+}
+
+.map-information > p {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 25px;
+}
+
+#map {
+    height: 430px;
+    width: 100%;
+    border-radius: 18px;
+    z-index: 1;
+}
+
+.institution-item {
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 13px;
+    background: #f8f3fb;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.institution-item:hover {
+    background: #ede1f5;
+}
+
+.institution-item strong {
+    display: block;
+    color: var(--dark-purple);
+    font-size: 13px;
+}
+
+.institution-item span {
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.institution-item button {
+    border: none;
+    background: transparent;
+    color: var(--purple);
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 7px;
+    font-size: 11px;
+}
+
+.empty-message {
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.map-note {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 15px;
+}
+
+/* CONTACTO */
+
+.contact-section {
+    padding: 90px 20px;
+    text-align: center;
+    background:
+        radial-gradient(circle at 20% 20%, #bda0d5, transparent 45%),
+        linear-gradient(135deg, #8d6bb2, #604776);
+    color: white;
+}
+
+.contact-content h2 {
+    font-size: clamp(30px, 4vw, 45px);
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+.contact-content p {
+    font-size: 14px;
+    max-width: 550px;
+    margin: 0 auto 25px;
+    color: #f0e8f7;
+}
+
+.eyebrow {
+    display: inline-block;
+}
+
+.contact-section .eyebrow {
+    color: #eee0fa;
+}
+
+.btn-light {
+    background: white;
+    color: var(--dark-purple);
+}
+
+/* PIE DE PÁGINA */
+
+.footer {
+    background: #392b49;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-brand strong {
+    letter-spacing: 3px;
+}
+
+.footer-brand p, .copyright {
+    font-size: 11px;
+    color: #c8b9d4;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+}
+
+/* ANIMACIONES */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 850px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 82px;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 25px;
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: 0 10px 20px #59407115;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hero-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero-text > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-art {
+        min-height: 320px;
+    }
+
+    .purpose-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cards-grid, .research-grid, .resources-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-layout {
+        grid-template-columns: 1fr;
+    }
+
+    #map {
+        height: 350px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .flower-circle {
+        width: 230px;
+        height: 230px;
+    }
+
+    .flower {
+        font-size: 85px;
+    }
+
+    .quote-section {
+        font-size: 19px;
+    }
+
+    .section {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .purpose-text h2 {
+        font-size: 34px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+// ======================================
+// ALTHEA CONTIGO - FUNCIONES
+// ======================================
+
+
+// MENÚ PARA CELULARES
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("active");
+
+    menuToggle.setAttribute("aria-expanded", isOpen);
+    menuToggle.setAttribute(
+        "aria-label",
+        isOpen ? "Cerrar menú" : "Abrir menú"
+    );
+});
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+    });
+});
+
+
+// ANIMACIONES AL DESPLAZARSE
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    threshold: 0.12
+});
+
+document.querySelectorAll(".reveal").forEach(element => {
+    observer.observe(element);
+});
+
+
+// ======================================
+// MAPA INTERACTIVO
+// ======================================
+
+// Agrega aquí las instituciones verificadas.
+// Las coordenadas deben ser latitud y longitud.
+
+const institutions = [
+
+    /*
+    EJEMPLO DE CÓMO AGREGAR UNA INSTITUCIÓN:
+
+    {
+        name: "Nombre de la institución",
+        address: "Dirección completa",
+        city: "Ciudad Madero",
+        phone: "Teléfono de contacto",
+        hours: "Horario de atención",
+        latitude: 22.25,
+        longitude: -97.83
+    },
+
+    IMPORTANTE:
+    Sustituye los datos de ejemplo por información real
+    y verifica las coordenadas antes de publicar.
+    */
+
+];
+
+
+// Crear mapa
+
+const map = L.map("map").setView(
+    [22.25, -97.85],
+    12
+);
+
+
+// Mapa base
+
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 19
+    }
+).addTo(map);
+
+
+// Lista de instituciones
+
+const institutionList = document.getElementById(
+    "institutionList"
+);
+
+
+// Agregar instituciones al mapa
+
+function loadInstitutions() {
+
+    institutionList.replaceChildren();
+
+    if (institutions.length === 0) {
+        const message = document.createElement("p");
+        message.className = "empty-message";
+        message.textContent =
+            "Las instituciones se agregarán próximamente.";
+
+        institutionList.appendChild(message);
+        return;
+    }
+
+    institutions.forEach((institution) => {
+
+        // Crear marcador
+
+        const marker = L.marker([
+            institution.latitude,
+            institution.longitude
+        ]).addTo(map);
+
+        // Contenido seguro de la ventana emergente
+
+        const popup = document.createElement("div");
+
+        const title = document.createElement("strong");
+        title.textContent = institution.name;
+
+        const address = document.createElement("p");
+        address.textContent = institution.address;
+
+        const city = document.createElement("p");
+        city.textContent = institution.city;
+
+        popup.append(title, address, city);
+
+        if (institution.phone) {
+            const phone = document.createElement("p");
+            phone.textContent = "Teléfono: " + institution.phone;
+            popup.appendChild(phone);
+        }
+
+        if (institution.hours) {
+            const hours = document.createElement("p");
+            hours.textContent = "Horario: " + institution.hours;
+            popup.appendChild(hours);
+        }
+
+        marker.bindPopup(popup);
+
+        // Crear tarjeta en la lista
+
+        const item = document.createElement("div");
+        item.className = "institution-item";
+
+        const name = document.createElement("strong");
+        name.textContent = institution.name;
+
+        const location = document.createElement("span");
+        location.textContent = institution.city;
+
+        const button = document.createElement("button");
+        button.textContent = "Ver ubicación →";
+
+        button.addEventListener("click", () => {
+
+            map.flyTo(
+                [institution.latitude, institution.longitude],
+                16
+            );
+
+            marker.openPopup();
+
+        });
+
+        item.append(name, location, button);
+
+        institutionList.appendChild(item);
+
+    });
+
+}
+
+
+// Ejecutar función
+
+loadInstitutions();
+
+
+// ======================================
+// FIN
+// ======================================
