@@ -637,3 +637,10 @@ h1, h2, h3 {
         justify-content: center;
     }
 }
+.logo-img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
