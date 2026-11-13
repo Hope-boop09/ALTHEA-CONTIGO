@@ -83,15 +83,16 @@ const institutions = [
 ];
 
 
-    {
-        name: "Nombre de la institución",
-        address: "Dirección completa",
-        city: "Ciudad Madero",
-        phone: "Teléfono de contacto",
-        hours: "Horario de atención",
-        latitude: 22.25,
-        longitude: -97.83
-    },
+  
+{
+    name: "Nombre de la institución",
+    address: "Dirección completa",
+    city: "Ciudad Madero",
+    phone: "Teléfono de contacto",
+    hours: "Horario de atención",
+    latitude: 22.25,
+    longitude: -97.83
+},
 
     IMPORTANTE:
     Sustituye los datos de ejemplo por información real
