@@ -52,10 +52,36 @@ document.querySelectorAll(".reveal").forEach(element => {
 // Agrega aquí las instituciones verificadas.
 // Las coordenadas deben ser latitud y longitud.
 
-const institutions = [
 
-    /*
-    EJEMPLO DE CÓMO AGREGAR UNA INSTITUCIÓN:
+const institutions = [
+    {
+        name: "Hospital Civil de Madero",
+        address: "Servando Canales #1900 Norte, colonia Hidalgo",
+        city: "Ciudad Madero, Tamaulipas",
+        phone: "833 215 7258",
+        hours: "Consultar directamente con la institución",
+        latitude: 22.2539869,
+        longitude: -97.8234249
+    },
+    {
+        name: "DIF Ciudad Madero - Procuraduría de Protección",
+        address: "Calle Armando Barba s/n, colonia Heriberto Kehoe",
+        city: "Ciudad Madero, Tamaulipas",
+        phone: "833 194 0596",
+        hours: "Consultar directamente con la institución",
+        latitude: 22.2452237,
+        longitude: -97.8438561
+    },
+    {
+        name: "Procuraduría de Protección de Niñas, Niños y Adolescentes",
+        address: "Ciudad Madero, Tamaulipas",
+        phone: "Consultar directamente",
+        hours: "Consultar directamente con la institución",
+        latitude: 22.2899644,
+        longitude: -97.8387874
+    }
+];
+
 
     {
         name: "Nombre de la institución",
